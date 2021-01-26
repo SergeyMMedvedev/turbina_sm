@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/turbina_sm/static/css/main.7b2c9160.chunk.css",
+    "main.js": "/turbina_sm/static/js/main.722d32d7.chunk.js",
+    "main.js.map": "/turbina_sm/static/js/main.722d32d7.chunk.js.map",
+    "runtime-main.js": "/turbina_sm/static/js/runtime-main.d9d38a12.js",
+    "runtime-main.js.map": "/turbina_sm/static/js/runtime-main.d9d38a12.js.map",
+    "static/js/2.f6fa7abc.chunk.js": "/turbina_sm/static/js/2.f6fa7abc.chunk.js",
+    "static/js/2.f6fa7abc.chunk.js.map": "/turbina_sm/static/js/2.f6fa7abc.chunk.js.map",
+    "static/js/3.40d1edc1.chunk.js": "/turbina_sm/static/js/3.40d1edc1.chunk.js",
+    "static/js/3.40d1edc1.chunk.js.map": "/turbina_sm/static/js/3.40d1edc1.chunk.js.map",
+    "index.html": "/turbina_sm/index.html",
+    "static/css/main.7b2c9160.chunk.css.map": "/turbina_sm/static/css/main.7b2c9160.chunk.css.map",
+    "static/js/2.f6fa7abc.chunk.js.LICENSE.txt": "/turbina_sm/static/js/2.f6fa7abc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/turbina_sm/static/media/arrowUp.f456265e.svg",
+    "static/media/background-blur.c25e08a2.jpg": "/turbina_sm/static/media/background-blur.c25e08a2.jpg",
+    "static/media/background-new.756cdfc3.png": "/turbina_sm/static/media/background-new.756cdfc3.png",
+    "static/media/background.22961cb9.png": "/turbina_sm/static/media/background.22961cb9.png",
+    "static/media/four_new_tracks.f2584320.jpeg": "/turbina_sm/static/media/four_new_tracks.f2584320.jpeg",
+    "static/media/love_outline_cover.66f20682.jpg": "/turbina_sm/static/media/love_outline_cover.66f20682.jpg",
+    "static/media/note-round-icon.c538843e.svg": "/turbina_sm/static/media/note-round-icon.c538843e.svg",
+    "static/media/turbina.b11f75a9.svg": "/turbina_sm/static/media/turbina.b11f75a9.svg",
+    "static/media/Белочки — Бабба feat. Варя Карпова.be389704.mp3": "/turbina_sm/static/media/Белочки — Бабба feat. Варя Карпова.be389704.mp3",
+    "static/media/Конец света — TYAGOTENIE feat. Варя Карпова.a73b2263.mp3": "/turbina_sm/static/media/Конец света — TYAGOTENIE feat. Варя Карпова.a73b2263.mp3",
+    "static/media/Контур любви — Хадн дадн feat. Варя Карпова и Федя Быстров.cb531876.mp3": "/turbina_sm/static/media/Контур любви — Хадн дадн feat. Варя Карпова и Федя Быстров.cb531876.mp3",
+    "static/media/Природа — Jerk feat. Федя Быстров.826c0909.mp3": "/turbina_sm/static/media/Природа — Jerk feat. Федя Быстров.826c0909.mp3",
+    "static/media/У белого кота — Света Лукьянова feat. Никита Тугумов.15a7deec.mp3": "/turbina_sm/static/media/У белого кота — Света Лукьянова feat. Никита Тугумов.15a7deec.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9d38a12.js",
+    "static/js/2.f6fa7abc.chunk.js",
+    "static/css/main.7b2c9160.chunk.css",
+    "static/js/main.722d32d7.chunk.js"
+  ]
+}
