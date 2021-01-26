@@ -1,0 +1,36 @@
+.title {
+  align-self: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 760px;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: filter .5s ease-in-out;
+  z-index: 3;
+}
+
+.title__logo {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    max-width: 580px;
+  }
+}
+
+@media screen and (max-width: 480px) and (max-height: 500px) {
+  .title {
+    opacity: .2;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-height: 420px) {
+  .title {
+    max-width: 300px;
+  }
+}

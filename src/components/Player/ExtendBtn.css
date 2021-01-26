@@ -1,0 +1,44 @@
+.extend-btn {
+  grid-area: extend-btn;
+  justify-self: end;
+  align-self: start;
+  text-align: right;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.extend-btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .extend-btn {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -42px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 30px;
+    height: 13px;
+  }
+
+  .extend-btn__open {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .extend-btn__close {
+    width: 16px;
+    height: 16px;
+  }
+}

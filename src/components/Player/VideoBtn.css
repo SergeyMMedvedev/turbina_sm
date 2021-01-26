@@ -1,0 +1,39 @@
+.video-link-wrapper {
+  /* inline-flex -- чтобы  обертка была по размерами содержимого */
+  display: inline-flex;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.video-link {
+  border-radius: 20px;
+  transition: box-shadow .2s ease-out;
+}
+
+.video-link:hover {
+  box-shadow: 0 0 8px 4px #ffffff40;
+}
+
+.video-link:active, .video-link:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-link {
+    height: 34px;
+    width: 87px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video-link-wrapper {
+    margin-top: 0;
+  }
+  
+  .video-link {
+    height: 30px;
+    width: 74px;
+  }
+}

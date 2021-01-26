@@ -1,0 +1,43 @@
+.player__switcher {
+  width: 135px;
+  min-width: 100px;
+  height: 35px;
+  box-sizing: border-box;
+  padding: 0 6px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background: center no-repeat transparent;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  transition: box-shadow .2s ease-out;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+}
+
+.player__switcher:hover {
+  cursor: pointer;
+}
+
+.player__switcher-text {
+  margin: 0;
+  padding: 0;
+  display: block;
+  opacity: 0;
+}
+
+.player__switcher:hover {
+  box-shadow: 0 0 8px 4px #ffffff40;
+}
+
+.player__switcher:active, .player__switcher:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 480px) {
+  .player__switcher {
+    font-size: 12px;
+    height: 30px;
+    flex-grow: 1;
+  }
+}
