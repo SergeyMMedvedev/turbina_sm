@@ -1,5 +1,6 @@
 import loveOutline from './audio/Контур любви — Хадн дадн feat. Варя Карпова и Федя Быстров.mp3';
 import defaultBackground from '../images/background.png';
+import komsomolskBackground from '../images/background-komsomolsk.7962b5a7.png';
 import newBackground from '../images/background-new.png';
 import fourNewTracksCover from '../images/four_new_tracks.jpeg';
 
@@ -40,7 +41,7 @@ export const tracks = [
     theme: {
       color: '#fff',
       backgroundColor: 'white',
-      backgroundImage: `url(${newBackground})`,
+      backgroundImage: `url(${komsomolskBackground})`,
     },
     albumPicture: fourNewTracksCover,
     streamings: [
@@ -226,7 +227,7 @@ export const tracks = [
     theme: {
       color: '#fff',
       backgroundColor: 'white',
-      backgroundImage: `url(${newBackground})`,
+      backgroundImage: `url(${defaultBackground})`,
     },
     albumPicture: fourNewTracksCover,
     streamings: [

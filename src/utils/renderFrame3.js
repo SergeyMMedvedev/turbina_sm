@@ -1,7 +1,5 @@
 export default function renderFrame(analyser, context2d, freqByteData, analyzerCanvas, audio) {
 
-
-
   function Particle(opt) {
     this.x = opt.x || 0;
     this.y = opt.y || 0;
@@ -58,22 +56,6 @@ export default function renderFrame(analyser, context2d, freqByteData, analyzerC
     ctx.globalAlpha = gA;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   var option = {
     effect: 'circlewave',
     accuracy: 128,
@@ -114,27 +96,6 @@ export default function renderFrame(analyser, context2d, freqByteData, analyzerC
     },
   };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   let particles = [];
 
   function drawProgress(__color, __progress, circleRadius, context2d) {
@@ -170,20 +131,6 @@ export default function renderFrame(analyser, context2d, freqByteData, analyzerC
 
   const canvas = analyzerCanvas.current;
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
   function loop() {
 
     var dpr = 1;
@@ -197,13 +144,6 @@ export default function renderFrame(analyser, context2d, freqByteData, analyzerC
     context2d.globalCompositeOperation = 'lighter';
     analyser.getByteFrequencyData(freqByteData);
 
-
-
-
-
-
-
-    
     var __circlebarOption = option.circlebar;
     var __fadeSide = __circlebarOption.fadeSide;
     var __prettify = __circlebarOption.prettify;
@@ -256,10 +196,6 @@ export default function renderFrame(analyser, context2d, freqByteData, analyzerC
         }
         particles.forEach((dot) => { dot.update(context2d); });
       }
-
-    
-
-
 
     __width = (circleRadius * Math.PI - option.accuracy * __circlebarOption.spacing) / option.accuracy;
     __offsetX = -__width / 2;
@@ -316,21 +252,5 @@ export default function renderFrame(analyser, context2d, freqByteData, analyzerC
 
   }
   requestAnimationFrame(loop);
-
-  // 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 };
